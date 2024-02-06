@@ -17,7 +17,7 @@ public class FirstProject extends HttpServlet {
 	
 	public FirstProject() {
 		super();
-		System.out.println("Inside no or construstor");
+		System.out.println("Inside no org construstor");
 	}
 	
 	@Override
