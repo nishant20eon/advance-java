@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="6.0">
+  <display-name>JspandServletDemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>FirstServlet</servlet-name>
+  	<servlet-class>com.eon.FirstServlet</servlet-class>	
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>FirstServlet</servlet-name>
+  	<url-pattern>/processFirstServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
+
+<!-- 
+Http method contain three main thing:-
+1) URL = Action
+2) HTTP method = method
+3) Optional parameters = First name and Last name 
+
+web.xml is a entry point to our application, not only this =, if we create any java web application,
+web.xml is the entry point to that application
+
+Landing page will create outside of web-inf folder
+
+-->
