@@ -22,7 +22,7 @@ public class FirstProject extends HttpServlet {
 		String fullName = FirstName +" "+LastName;
 	
 		System.out.println("My Name is "+fullName);
-		System.out.println("Printwriter called");
+		System.out.println("Printwriter is called");
 		PrintWriter writer = resp.getWriter();
 		writer.println("<html><body><h1> My Name is "+fullName+"</h1></body></html>");
 		System.out.println("Calling URL and other html file");
