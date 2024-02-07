@@ -21,7 +21,7 @@ public class FirstProject extends HttpServlet {
 		String LastName = req.getParameter("lname");
 		String fullName = FirstName +" "+LastName;
 	
-		System.out.println("My Name is "+fullName);
+		System.out.println("My  Name is "+fullName);
 		System.out.println("Printwriter is called");
 		PrintWriter writer = resp.getWriter();
 		writer.println("<html><body><h1> My Name is "+fullName+"</h1></body></html>");
